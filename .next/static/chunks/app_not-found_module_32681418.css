@@ -1,0 +1,47 @@
+/* [project]/app/not-found.module.css [app-client] (css) */
+.not-found-module__sxuMuG__container {
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(#d7aaf1, #000);
+  min-height: 100vh;
+  padding-top: 80px;
+  font-family: Arial, sans-serif;
+}
+
+.not-found-module__sxuMuG__iconWrapper {
+  margin-bottom: 20px;
+}
+
+.not-found-module__sxuMuG__icon {
+  width: 120px;
+  height: 80px;
+}
+
+.not-found-module__sxuMuG__title {
+  color: #ff5252;
+  margin: 10px 0;
+  font-size: 72px;
+}
+
+.not-found-module__sxuMuG__message {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.not-found-module__sxuMuG__button {
+  color: #fff;
+  background-color: #3949ab;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color .3s;
+  display: inline-block;
+}
+
+.not-found-module__sxuMuG__button:hover {
+  background-color: #303f9f;
+}
+
+
+/*# sourceMappingURL=app_not-found_module_32681418.css.map*/

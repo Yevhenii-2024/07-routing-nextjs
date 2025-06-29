@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/notes/filter/LayoutNotes.module.css [app-rsc] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"container\": \"LayoutNotes-module__Eh5KMq__container\",\n  \"notesWrapper\": \"LayoutNotes-module__Eh5KMq__notesWrapper\",\n  \"sidebar\": \"LayoutNotes-module__Eh5KMq__sidebar\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA"}},
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":["file:///Users/evgenii/Desktop/Projects/React/next/07-routing-nextjs/app/notes/filter/layout.tsx"],"sourcesContent":["import css from './LayoutNotes.module.css';\n\ntype NotesLayoutProps = {\n\tchildren: React.ReactNode;\n\tsidebar: React.ReactNode;\n};\n\nexport default function NotesLayout({ children, sidebar }: NotesLayoutProps) {\n\treturn (\n\t\t<section>\n\t\t\t<div className={`${css.container}`}>\n\t\t\t\t<aside className={css.sidebar}>{sidebar}</aside>\n\t\t\t\t{children}\n\t\t\t</div>\n\t\t</section>\n\t);\n}"],"names":[],"mappings":";;;;AAAA;;;AAOe,SAAS,YAAY,EAAE,QAAQ,EAAE,OAAO,EAAoB;IAC1E,qBACC,8OAAC;kBACA,cAAA,8OAAC;YAAI,WAAW,GAAG,iJAAA,CAAA,UAAG,CAAC,SAAS,EAAE;;8BACjC,8OAAC;oBAAM,WAAW,iJAAA,CAAA,UAAG,CAAC,OAAO;8BAAG;;;;;;gBAC/B;;;;;;;;;;;;AAIL","debugId":null}}]
+}

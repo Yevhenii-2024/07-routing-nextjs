@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/evgenii/Desktop/Projects/React/next/07-routing-nextjs/app/not-found.module.css"],"sourcesContent":[".container {\n  background: linear-gradient(to bottom, #d7aaf1, #000000);\n  color: #ffffff;\n  text-align: center;\n  min-height: 100vh;\n  padding-top: 80px;\n  font-family: Arial, sans-serif;\n}\n\n.iconWrapper {\n  margin-bottom: 20px;\n}\n\n.icon {\n  width: 120px;\n  height: 80px;\n}\n\n.title {\n  font-size: 72px;\n  margin: 10px 0;\n  color: #ff5252;\n}\n\n.message {\n  font-size: 20px;\n  margin-bottom: 20px;\n}\n\n.button {\n  display: inline-block;\n  margin-top: 20px;\n  padding: 10px 20px;\n  background-color: #3949ab;\n  color: white;\n  text-decoration: none;\n  border-radius: 5px;\n  transition: background-color 0.3s ease;\n}\n\n.button:hover {\n  background-color: #303f9f;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;AASA;;;;AAIA;;;;;AAKA;;;;;;AAMA;;;;;AAKA;;;;;;;;;;;AAWA","debugId":null}}]
+}

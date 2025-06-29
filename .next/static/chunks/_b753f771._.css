@@ -1,0 +1,56 @@
+/* [project]/components/ErrorMessage/ErrorMessage.module.css [app-client] (css) */
+.ErrorMessage-module__bzyCla__text {
+  text-align: center;
+  color: #d32f2f;
+  background-color: #fdecea;
+  border: 1px solid #f5c2c0;
+  border-radius: 6px;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 12px 16px;
+  font-size: 16px;
+}
+
+
+/* [project]/app/notes/page.module.css [app-client] (css) */
+.page-module__HWKl2G__app {
+  flex: 1;
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px 16px;
+}
+
+.page-module__HWKl2G__toolbar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 16px 0;
+  display: flex;
+}
+
+.page-module__HWKl2G__button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 16px;
+  transition: background-color .2s;
+}
+
+.page-module__HWKl2G__button:hover {
+  background-color: #0b5ed7;
+}
+
+.page-module__HWKl2G__errorMessage {
+  text-align: center;
+  color: orange;
+  padding: 15px 0;
+}
+
+
+/*# sourceMappingURL=_b753f771._.css.map*/

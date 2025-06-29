@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///Users/evgenii/Desktop/Projects/React/next/07-routing-nextjs/components/TanStackProvider/TanStackProvider.tsx"],"sourcesContent":["'use client';\nimport { useState } from 'react';\nimport { QueryClient, QueryClientProvider } from '@tanstack/react-query';\n\ntype Props = {\n\tchildren: React.ReactNode;\n};\n\nconst TanStackProvider = ({ children }: Props) => {\n\tconst [queryClient] = useState(() => new QueryClient());\n\n\treturn <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>;\n};\n\nexport default TanStackProvider;"],"names":[],"mappings":";;;;AACA;AACA;AAAA;AAFA;;;;AAQA,MAAM,mBAAmB,CAAC,EAAE,QAAQ,EAAS;IAC5C,MAAM,CAAC,YAAY,GAAG,CAAA,GAAA,qMAAA,CAAA,WAAQ,AAAD,EAAE,IAAM,IAAI,6KAAA,CAAA,cAAW;IAEpD,qBAAO,8OAAC,sLAAA,CAAA,sBAAmB;QAAC,QAAQ;kBAAc;;;;;;AACnD;uCAEe","debugId":null}}]
+}
